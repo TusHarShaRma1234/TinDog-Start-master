@@ -1,0 +1,139 @@
+
+body{
+  font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+
+  }
+  .container-fluid{
+    padding: 3% 15% 7%;
+  }
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+  .dawnlod-button{
+    margin: 5% 3% 5% 0;
+  }
+  .total-hactik{
+    position: relative;
+  }
+  .titel-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+  }
+#features{
+  padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index:1;
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+  .feature-box{
+    padding: 3%;
+    text-align: center;
+  }
+.icon:hover{
+  color: #0AA1DD;
+}
+h2{
+  font-style:Montserrat-bold;
+  font-size: 3.5rem;
+  width: 95%;
+}
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+.testoimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 30px 30px 50px;
+}
+  .carousel-item{
+  padding: 7% 15%;
+  }
+  /* .Sing-up-button{
+    color: #fff;
+    background-color: #9FB4FF;
+  }
+.Sing-up-button:hover{
+  background-color:  #79DAE8;
+} */
+.card{
+  text-align: center;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align:center;
+  }
+  .titel-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+#cta{
+  background-color:#ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+    text-align: center;
+}
+.footh3{
+  font-family: 'Montserrat-black';
+  font-size: 4.4rem;
+  line-height: 1.5;
+}
+.social-icon{
+  padding: 15px 10px;
+}
+
+#footer{
+  padding: 1%;
+  color: black;
+  text-align: center;
+  background-color: #fff;
+}
+.iconclass{
+  margin: 0 1rem;
+}
